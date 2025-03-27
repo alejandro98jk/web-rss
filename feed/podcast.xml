@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mi Podcast</title>
+        <link>https://tusitio.github.io/podcast</link>
+        <description>Podcast sobre [tema del podcast]</description>
+        <language>es</language>
+        <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
+        <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
+        <itunes:owner>
+            <itunes:name>Nombre del Autor</itunes:name>
+            <itunes:email>correo@ejemplo.com</itunes:email>
+        </itunes:owner>
+        
+        <item>
+            <title>Episodio 1: Introducción</title>
+            <link>https://tusitio.github.io/podcast/episodio1.mp3</link>
+            <description>En este episodio hablamos sobre...</description>
+            <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <enclosure url="https://tusitio.github.io/podcast/episodio1.mp3" length="12345678" type="audio/mpeg"/>
+            <guid>https://tusitio.github.io/podcast/episodio1</guid>
+        </item>
+        
+        <item>
+            <title>Episodio 2: Tema Interesante</title>
+            <link>https://tusitio.github.io/podcast/episodio2.mp3</link>
+            <description>Hoy exploramos...</description>
+            <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate>
+            <enclosure url="https://tusitio.github.io/podcast/episodio2.mp3" length="12345678" type="audio/mpeg"/>
+            <guid>https://tusitio.github.io/podcast/episodio2</guid>
+        </item>
+    </channel>
+</rss>

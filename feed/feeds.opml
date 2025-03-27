@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Lista de Feeds</title>
+        <dateCreated>Thu, 27 Mar 2025 12:00:00 GMT</dateCreated>
+    </head>
+    <body>
+        <outline text="Mi Blog" type="rss" xmlUrl="https://tusitio.github.io/feed/rss.xml" htmlUrl="https://tusitio.github.io/blog"/>
+        <outline text="Mi Podcast" type="rss" xmlUrl="https://tusitio.github.io/feed/podcast.xml" htmlUrl="https://tusitio.github.io/podcast"/>
+    </body>
+</opml>

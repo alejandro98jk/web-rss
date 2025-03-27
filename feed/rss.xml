@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mi Blog</title>
+        <link>https://tusitio.github.io/blog</link>
+        <description>Blog sobre [tema del blog]</description>
+        <language>es</language>
+        <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
+        <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
+        
+        <item>
+            <title>Post 1: Introducción</title>
+            <link>https://tusitio.github.io/blog/posts/post1.html</link>
+            <description>Este es el primer artículo del blog donde hablamos sobre...</description>
+            <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <guid>https://tusitio.github.io/blog/posts/post1</guid>
+        </item>
+        
+        <item>
+            <title>Post 2: Tema Interesante</title>
+            <link>https://tusitio.github.io/blog/posts/post2.html</link>
+            <description>En este artículo exploramos...</description>
+            <pubDate>Thu, 25 Mar 2025 12:00:00 GMT</pubDate>
+            <guid>https://tusitio.github.io/blog/posts/post2</guid>
+        </item>
+        
+        <item>
+            <title>Post 3: Más contenido</title>
+            <link>https://tusitio.github.io/blog/posts/post3.html</link>
+            <description>Continuamos con más información sobre...</description>
+            <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate>
+            <guid>https://tusitio.github.io/blog/posts/post3</guid>
+        </item>
+    </channel>
+</rss>
