@@ -3,10 +3,10 @@
     <channel>
         <title>Mi Blog</title>
         <link>https://alejandro98jk.github.io/web-rss/blog</link>
-        <description>Blog sobre [tema del blog]</description>
+        <description><![CDATA[Blog sobre [tema del blog]]]></description>
         <language>es</language>
         <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
-        <pubDate>Wed, 20 Mar 2025 12:00:00 GMT</pubDate> <!-- Solo una vez aquí -->
+        <pubDate>Wed, 20 Mar 2025 12:00:00 GMT</pubDate> 
 
         <item>
             <title>Post 1: Introducción</title>
@@ -29,7 +29,7 @@
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post3.html</link>
             <description><![CDATA[Continuamos con más información sobre...]]></description>
             <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post3.html</guid>
-            <pubDate>Mon, 25 Mar 2025 12:00:00 GMT</pubDate>
+            <pubDate>Tue, 25 Mar 2025 12:00:00 GMT</pubDate>
         </item>
 
     </channel>
