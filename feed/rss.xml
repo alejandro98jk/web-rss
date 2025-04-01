@@ -4,43 +4,34 @@
         <title>Mi Blog sobre Bicicletas</title>
         <link>https://alejandro98jk.github.io/web-rss/blog</link>
         <atom:link href="https://alejandro98jk.github.io/web-rss/blog/feed.rss" rel="self" type="application/rss+xml" />
-        <description><![CDATA[Blog dedicado al mundo del ciclismo, con consejos, rutas y análisis de equipamiento para bicicletas]]></description>
-        <language>es</language>
-        <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
-        <pubDate>Wed, 20 Mar 2025 12:00:00 GMT</pubDate>
-        <generator>Manual</generator>
-        <category>Deportes/Ciclismo</category>
-        <image>
-            <url>https://alejandro98jk.github.io/web-rss/images/logo.png</url>
-            <title>Mi Blog sobre Bicicletas</title>
-            <link>https://alejandro98jk.github.io/web-rss/blog</link>
-        </image>
+        <description><![CDATA[Blog dedicado al mundo del ciclismo]]></description>
+        <language>es-es</language>
+        <lastBuildDate>Tue, 25 Mar 2025 12:00:00 GMT</lastBuildDate>
+        <pubDate>Tue, 25 Mar 2025 12:00:00 GMT</pubDate>
+        <generator>Creado manualmente</generator>
 
         <item>
             <title>Post 1: Introducción al ciclismo urbano</title>
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post1.html</link>
-            <description><![CDATA[Guía completa para empezar en el ciclismo urbano: cómo elegir tu primera bicicleta, normas de circulación y equipamiento básico.]]></description>
+            <description><![CDATA[Guía completa para empezar en el ciclismo urbano]]></description>
             <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post1.html</guid>
             <pubDate>Wed, 20 Mar 2025 12:00:00 GMT</pubDate>
-            <category>Ciclismo Urbano</category>
         </item>
 
         <item>
             <title>Post 2: Las mejores rutas de montaña</title>
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post2.html</link>
-            <description><![CDATA[Descubre las 5 rutas de montaña más espectaculares para bicicleta de montaña, con mapas, perfiles de elevación y consejos técnicos.]]></description>
+            <description><![CDATA[Descubre las rutas de montaña más espectaculares]]></description>
             <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post2.html</guid>
             <pubDate>Fri, 22 Mar 2025 12:00:00 GMT</pubDate>
-            <category>MTB</category>
         </item>
 
         <item>
-            <title>Post 3: Mantenimiento básico de tu bicicleta</title>
+            <title>Post 3: Mantenimiento básico</title>
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post3.html</link>
-            <description><![CDATA[Aprende los cuidados esenciales que toda bicicleta necesita: lubricación de la cadena, ajuste de frenos y solución de problemas comunes.]]></description>
+            <description><![CDATA[Aprende los cuidados esenciales para tu bicicleta]]></description>
             <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post3.html</guid>
             <pubDate>Tue, 25 Mar 2025 12:00:00 GMT</pubDate>
-            <category>Mantenimiento</category>
         </item>
     </channel>
 </rss>
