@@ -1,3 +1,18 @@
+/* css/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Variables de color */
+:root {
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #f72585;
+  --dark: #1b263b;
+  --light: #1f1c1c;
+  --text: #2b2d42;
+  --text-light: #8d99ae;
+}
+
 /* Reset y estilos base */
 * {
   margin: 0;
@@ -5,262 +20,534 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary-color: #2c3e50;
-  --secondary-color: #e74c3c;
-  --accent-color: #3498db;
-  --light-color: #ecf0f1;
-  --dark-color: #2c3e50;
-  --text-color: #333;
-  --text-light: #7f8c8d;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  background-color: #f9f9f9;
-}
-
-/* Estilos del encabezado */
-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 4rem 1rem;
-  position: relative;
-}
-
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* Navegación */
-nav {
-  background-color: var(--primary-color);
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-nav ul {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light);
+  color: var(--text);
+  line-height: 1.7;
   display: flex;
-  justify-content: center;
-  list-style: none;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-nav li {
-  margin: 0 1.5rem;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-nav a:hover {
-  background-color: var(--secondary-color);
-  transform: translateY(-3px);
-}
-
-/* Contenido principal */
-main {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-section {
-  margin-bottom: 3rem;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-section:hover {
-  transform: translateY(-5px);
-}
-
-section h2 {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-
-section.intro {
-  text-align: center;
-  padding: 2rem;
-}
-
-section.intro p {
-  font-size: 1.2rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Estilos para listas de posts y podcasts */
-.blog, .podcast {
-  padding: 1.5rem;
-}
-
-.blog ul, .podcast ul {
-  list-style: none;
-}
-
-.blog li, .podcast li {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  align-items: center;
-}
-
-.blog li:last-child, .podcast li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.blog a, .podcast a {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
-  display: flex;
-  align-items: center;
-}
-
-.blog a:hover, .podcast a:hover {
-  color: var(--secondary-color);
-}
-
-/* Iconos */
-.blog a::before {
-  content: "📝";
-  margin-right: 10px;
-  font-size: 1.2rem;
-}
-
-.podcast a::before {
-  content: "🎧";
-  margin-right: 10px;
-  font-size: 1.2rem;
-}
-
-/* Pie de página */
-footer {
-  background-color: var(--dark-color);
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
-}
-
-footer a {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Diseño responsivo */
-@media (max-width: 768px) {
-  header h1 {
-      font-size: 2rem;
-  }
-  
-  nav ul {
-      flex-direction: column;
-      align-items: center;
-  }
-  
-  nav li {
-      margin: 0.5rem 0;
-  }
-  
-  section {
-      margin-bottom: 2rem;
-  }
-}
-
-/* Efectos y animaciones */
+/* Animaciones */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-section {
-  animation: fadeIn 0.5s ease-out forwards;
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
 
-section:nth-child(2) {
-  animation-delay: 0.2s;
-}
-
-section:nth-child(3) {
-  animation-delay: 0.4s;
-}
-
-/* Estilos para imágenes (puedes añadir estas clases a tus imágenes) */
-.img-container {
-  margin: 1.5rem 0;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.img-container img {
+/* Estructura principal */
+header, main, footer {
   width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.5s ease;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.img-container:hover img {
-  transform: scale(1.05);
-}
-
-/* Estilo para citas o destacados */
-blockquote {
-  border-left: 4px solid var(--accent-color);
-  padding: 1rem 1.5rem;
-  margin: 1.5rem 0;
-  background-color: var(--light-color);
-  font-style: italic;
-  color: var(--dark-color);
-}
-
-/* Botones */
-.btn {
-  display: inline-block;
-  background-color: var(--accent-color);
+/* Header mejorado */
+header {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
   color: white;
-  padding: 0.8rem 1.5rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  border: none;
-  cursor: pointer;
+  text-align: center;
+  padding: 3rem 1rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.btn:hover {
-  background-color: var(--secondary-color);
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Q50,80 0,100 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  animation: fadeIn 1s ease-out;
+}
+
+header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: var(--accent);
+  border-radius: 2px;
+}
+
+/* Navegación premium */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav a:hover {
+  background: var(--accent);
   transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(247, 37, 133, 0.3);
+}
+
+nav a i {
+  font-size: 1.2rem;
+}
+
+/* Contenido principal */
+main {
+  flex: 1;
+  padding: 3rem 1rem;
+  background-color: white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  border-radius: 20px 20px 0 0;
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  margin-bottom: 4rem;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+}
+
+h2 {
+  color: var(--dark);
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+h2::before, h2::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 3px;
+}
+
+h2::before {
+  left: -60px;
+}
+
+h2::after {
+  right: -60px;
+}
+
+/* Sección intro */
+.intro {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-top: 1.5rem;
+}
+
+/* Tarjetas de blog y podcast */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  height: 200px;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4rem;
+}
+
+.blog .card-image {
+  background: linear-gradient(45deg, #4cc9f0, #4895ef);
+}
+
+.podcast .card-image {
+  background: linear-gradient(45deg, #f72585, #b5179e);
+}
+
+.card-content {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.card h3 {
+  color: var(--dark);
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.card p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.card .meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.card .meta i {
+  color: var(--accent);
+}
+
+.card .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.card .btn:hover {
+  background: linear-gradient(to right, var(--secondary), var(--primary));
+  box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
+}
+
+/* Estilos específicos para posts de blog */
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.blog-header {
+  background: linear-gradient(45deg, #4cc9f0, #4895ef);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-header h2 {
+  color: white;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.blog-header h2::before, .blog-header h2::after {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.blog-meta span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+.blog-content {
+  padding: 2.5rem;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 2rem auto;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.blog-content img:hover {
+  transform: scale(1.02);
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Estilos para podcast */
+.podcast-episode {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.podcast-header {
+  background: linear-gradient(45deg, #f72585, #b5179e);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.audio-player {
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.podcast-content {
+  padding: 2rem;
+}
+
+.podcast-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.podcast-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.download-btn {
+  background: linear-gradient(to right, #f72585, #b5179e);
+  color: white;
+}
+
+.download-btn:hover {
+  background: linear-gradient(to right, #b5179e, #f72585);
+  box-shadow: 0 5px 15px rgba(247, 37, 133, 0.4);
+}
+
+.share-btn {
+  background: var(--light);
+  color: var(--text);
+  border: 1px solid #ddd;
+}
+
+.share-btn:hover {
+  background: #f0f0f0;
+}
+
+/* Footer mejorado */
+footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-top: auto;
+  position: relative;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 1.5rem 0;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background: var(--accent);
+  transform: translateY(-5px);
+}
+
+footer p {
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+/* Efectos especiales */
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.highlight-text {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2::before, h2::after {
+    width: 30px;
+  }
+  
+  h2::before {
+    left: -40px;
+  }
+  
+  h2::after {
+    right: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    gap: 15px;
+  }
+  
+  nav a {
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h2::before, h2::after {
+    display: none;
+  }
+  
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  header, main, footer {
+    padding: 1.5rem;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .blog-header, .podcast-header {
+    padding: 2rem 1rem;
+  }
+  
+  .blog-content, .podcast-content {
+    padding: 1.5rem;
+  }
 }
