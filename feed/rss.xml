@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
     <channel>
-        <title>Mi Blog sobre Bicicletas</title>
+        <title>Mi Blog</title>
         <link>https://alejandro98jk.github.io/web-rss/blog</link>
-        <atom:link href="https://alejandro98jk.github.io/web-rss/blog/feed.rss"> rel="self" 
-        <description><![CDATA[Blog dedicado al mundo del ciclismo]]></description>
-        <language>es-es</language>
-        <lastBuildDate>Tue, 25 Mar 2025 12:00:00 GMT</lastBuildDate>
-        <pubDate>Tue, 25 Mar 2025 12:00:00 GMT</pubDate>
-        <generator>Creado manualmente</generator>
-
+        <description>Blog sobre [tema del blog]</description>
+        <language>es</language>
+        <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
+        <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
+        
         <item>
-            <title>Post 1: Introducción al ciclismo urbano</title>
+            <title>Post 1: Introducción</title>
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post1.html</link>
-            <description><![CDATA[Guía completa para empezar en el ciclismo urbano]]></description>
-            <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post1.html</guid>
-            <pubDate>Wed, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <description>Este es el primer artículo del blog donde hablamos sobre...</description>
+            <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
+            <guid>https://alejandro98jk.github.io/web-rss/blog/posts/post1</guid>
         </item>
-
+        
         <item>
-            <title>Post 2: Las mejores rutas de montaña</title>
+            <title>Post 2: Tema Interesante</title>
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post2.html</link>
-            <description><![CDATA[Descubre las rutas de montaña más espectaculares]]></description>
-            <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post2.html</guid>
-            <pubDate>Fri, 22 Mar 2025 12:00:00 GMT</pubDate>
+            <description>En este artículo exploramos...</description>
+            <pubDate>Thu, 25 Mar 2025 12:00:00 GMT</pubDate>
+            <guid>https://alejandro98jk.github.io/web-rss/blog/posts/post2</guid>
         </item>
-
+        
         <item>
-            <title>Post 3: Mantenimiento básico</title>
+            <title>Post 3: Más contenido</title>
             <link>https://alejandro98jk.github.io/web-rss/blog/posts/post3.html</link>
-            <description><![CDATA[Aprende los cuidados esenciales para tu bicicleta]]></description>
-            <guid isPermaLink="true">https://alejandro98jk.github.io/web-rss/blog/posts/post3.html</guid>
-            <pubDate>Tue, 25 Mar 2025 12:00:00 GMT</pubDate>
+            <description>Continuamos con más información sobre...</description>
+            <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate>
+            <guid>https://alejandro98jk.github.io/web-rss/blog/posts/post3</guid>
         </item>
     </channel>
 </rss>
