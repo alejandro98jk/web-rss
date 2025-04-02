@@ -1,41 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
-     xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-    <channel>
-        <title>Mi Podcast</title>
-        <link>https://github.com/alejandro98jk/web-rss/tree/main/podcastt</link>
-        <description>Podcast sobre [tema del podcast]</description>
-        <language>es</language>
-        <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
-        <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate>
-        <itunes:owner>
-            <itunes:name>Juan Carlos</itunes:name>
-            <itunes:email>correoejemplo@gmail.com</itunes:email>
-        </itunes:owner>
-        
-        <item>
-            <title>Episodio 1: Introducción</title>
-            <link>https://alejandro98jk.github.io/podcast/episodio1.mp3</link>
-            <description>En este episodio hablamos sobre...</description>
-            <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" length="12345678" type="audio/mpeg"/>
-            <guid>https://alejandro98jk.github.io/podcast/episodio1</guid>
-        </item>
-        
-        <item>
-            <title>Episodio 2: Mundo Bicicleta</title>
-            <link>https://alejandro98jk.github.io/podcast/episodio2.mp3</link>
-            <description>Hoy exploramos...</description>
-            <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" length="12345678" type="audio/mpeg"/>
-            <guid>https://alejandro98jk.github.io/podcast/episodio2</guid>
-        </item> 
-    
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+   <channel>
+       <title>Mi Podcast</title>
+       <link>https://github.com/alejandro98jk/web-rss/tree/main/podcastt</link>
+       <description>Podcast sobre [tema del podcast]</description>
+       <language>es</language>
+       <lastBuildDate>Thu, 27 Mar 2025 12:00:00 GMT</lastBuildDate>
+       <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate> <!-- Actualizado a la fecha más reciente del canal -->
+       <itunes:owner>
+           <itunes:name>Juan Carlos</itunes:name>
+           <itunes:email>correoejemplo@gmail.com</itunes:email>
+       </itunes:owner>
+       
        <item>
-            <title>Episodio 3: Tema Interesante</title>
-            <link>https://alejandro98jk.github.io/podcast/episodio3.mp3</link>
-            <description>Hoy exploramos...</description>
-            <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate>
-            <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" length="12345678" type="audio/mpeg"/>
-            <guid>https://alejandro98jk.github.io/podcast/episodio3</guid>
-        </item>
+           <title>Episodio 1: Introducción</title>
+           <link>https://alejandro98jk.github.io/podcast/episodio1.mp3</link>
+           <description>En este episodio hablamos sobre...</description>
+           <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" length="12345678" type="audio/mpeg"/>
+           <guid>https://alejandro98jk.github.io/podcast/episodio1</guid>
+           <pubDate>Thu, 20 Mar 2025 12:00:00 GMT</pubDate> <!-- Fecha específica para el episodio -->
+       </item>
+       
+       <item>
+           <title>Episodio 2: Mundo Bicicleta</title>
+           <link>https://alejandro98jk.github.io/podcast/episodio2.mp3</link>
+           <description>Hoy exploramos...</description>
+           <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" length="12345678" type="audio/mpeg"/>
+           <guid>https://alejandro98jk.github.io/podcast/episodio2</guid>
+           <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate> <!-- Fecha específica para el episodio -->
+       </item>
+   
+      <item>
+           <title>Episodio 3: Tema Interesante</title>
+           <link>https://alejandro98jk.github.io/podcast/episodio3.mp3</link>
+           <description>Hoy exploramos...</description>
+           <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" length="12345678" type="audio/mpeg"/>
+           <guid>https://alejandro98jk.github.io/podcast/episodio3</guid>
+           <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate> <!-- Fecha específica para el episodio -->
+       </item>
+   </channel>
 </rss>
