@@ -5,7 +5,7 @@
 
  <channel>
      <title>Mundo De Las Bicicleta</title>
-     <link>https://alejandro98jk.github.io/web-rss/podcast/</link>
+     <link>https://alejandro98jk.github.io/web-rss/podcast/index.html</link>
      <atom:link href="https://alejandro98jk.github.io/web-rss/feed/podcast.xml" rel="self" type="application/rss+xml"/>
      <description>Podcast sobre Las Bicicletas</description>
      <language>es</language>
