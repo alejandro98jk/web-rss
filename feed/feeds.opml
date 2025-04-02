@@ -8,13 +8,13 @@
        <outline text="Las Mejores Rutas para Ciclistas - Blog" 
                 title="Las Mejores Rutas para Ciclistas - Blog" 
                 type="rss" 
-                xmlUrl="https://alejandro98jk.github.io/web-rss/blog/main/feed/rss.xml" 
+                xmlUrl="https://alejandro98jk.github.io/web-rss/blog/feed/rss.xml" 
                 htmlUrl="https://alejandro98jk.github.io/web-rss/blog/" />
 
        <outline text="Introducción al Mundo del Ciclismo - Podcast" 
                 title="Introducción al Mundo del Ciclismo - Podcast" 
                 type="rss" 
-                xmlUrl="https://alejandro98jk.github.io/web-rss/blog/main/feed/podcast.xml" 
+                xmlUrl="https://alejandro98jk.github.io/web-rss/podcast/feed/podcast.xml" 
                 htmlUrl="https://alejandro98jk.github.io/web-rss/podcast/" />
    </body>
 </opml>
