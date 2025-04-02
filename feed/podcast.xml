@@ -22,7 +22,7 @@
 
      <item>
          <title>Episodio 1: Instruccion</title>
-         <link>https://alejandro98jk.github.io/web-rss/podcast/episodio1.html</link>
+         <link>https://alejandro98jk.github.io/web-rss/podcast/index.html</link>
          <description>Exploremos el Mundo de las Bicicleta</description>
          <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" type="audio/mpeg" length="52428800"/>
          <pubDate>Mon, 10 Mar 2025 10:00:00 GMT</pubDate>
@@ -31,7 +31,7 @@
 
      <item>
          <title>Episodio 2: Instruccion </title>
-         <link>https://alejandro98jk.github.io/web-rss/podcast/episodio2.html</link>
+         <link>https://alejandro98jk.github.io/web-rss/podcast/index.html</link>
          <description>Profundizamos en una de las Bicletas.</description>
          <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" type="audio/mpeg" length="41943040"/>
          <pubDate>Mon, 17 Mar 2025 10:00:00 GMT</pubDate>
@@ -40,7 +40,7 @@
 
      <item>
          <title>Episodio 3: Mundod De Bicicleta</title>
-         <link>https://alejandro98jk.github.io/web-rss/podcast/episodio3.html</link>
+         <link>https://alejandro98jk.github.io/web-rss/podcast/index.html</link>
          <description>Instruccion</description>
          <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" type="audio/mpeg" length="62914560"/>
          <pubDate>Mon, 24 Mar 2025 10:00:00 GMT</pubDate>
