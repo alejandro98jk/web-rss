@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
-    <head>
-        <title>Lista de Feeds</title>
-        <dateCreated>Thu, 27 Mar 2025 12:00:00 GMT</dateCreated>
-    </head>
-    <body>
-        <outline text="Mi Blog" type="rss" xmlUrl="https://github.com/alejandro98jk/web-rss/blob/main/feed/rss.xml" htmlUrl="https://github.com/alejandro98jk/web-rss/tree/main/blog"/>
-        <outline text="Mi Podcast" type="rss" xmlUrl="https://github.com/alejandro98jk/web-rss/blob/main/feed/podcast.xml" htmlUrl="https://github.com/alejandro98jk/web-rss/tree/main/podcast"/>
-    </body>
+   <head>
+       <title>Exploradores de las Bicicletas - Feeds</title>
+       <dateCreated>Tue, 25 Mar 2025 10:00:00 GMT</dateCreated>
+   </head>
+   <body>
+       <outline text="Las Mejores Rutas para Ciclistas - Blog" title=" Las Mejores Rutas para Ciclistas- Blog" type="rss" xmlUrl="https://github.com/alejandro98jk/web-rss/blob/main/feed/rss.xml" htmlUrl="https://alejandro98jk/PabloGranado/web-rss/tree/main/blog/" />
+       <outline text="Introducción al Mundo del Ciclismo  - Podcast" title="Introducción al Mundo del Ciclismo - Podcast" type="rss" xmlUrl="https://github.com/https://alejandro98jk/web-rss/blob/main/feed/podcast.xml" htmlUrl="https://alejandro98jk/PabloGranado/web-rss/tree/main/podcast/" />
+   </body>
 </opml>
