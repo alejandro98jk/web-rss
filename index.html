@@ -3,49 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Web RSS</title>
+    <title>Mundo Bicicleta - Blog y Podcast</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido al Mundo de la Bicicleta</h1>
-        <nav>
-            <ul>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="podcast/index.html">Podcast</a></li>
-            </ul>
-        </nav>
+        <div class="container header-content">
+            <h1><i class="fas fa-bicycle"></i> Mundo Bicicleta</h1>
+            <nav>
+                <ul>
+                    <li><a href="blog/index.html"><i class="fas fa-book-open"></i> Blog</a></li>
+                    <li><a href="podcast/index.html"><i class="fas fa-podcast"></i> Podcast</a></li>
+                    <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <main>
-        <section class="intro">
-            <h2>Explora nuestro contenido</h2>
-            <p>Bienvenido a nuestro sitio donde compartimos artículos interesantes en nuestro blog y episodios de nuestro podcast.</p>
+    <main class="container">
+        <section class="hero">
+            <h2>Explora el mundo sobre dos ruedas</h2>
+            <p>Descubre los mejores artículos y episodios sobre ciclismo, rutas, mantenimiento y aventuras en bicicleta.</p>
         </section>
         
-        <section class="blog">
-            <h2>Últimos Posts</h2>
-            <ul>
-                <li><a href="blog/posts/post1.html">Post 1: Introducción</a></li>
-                <li><a href="blog/posts/post2.html">Post 2: Tema Interesante</a></li>
-                <li><a href="blog/posts/post3.html">Post 3: Más contenido</a></li>
-            </ul>
+        <section>
+            <h2 class="section-title">Últimos Artículos del Blog</h2>
+            <div class="content-grid">
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ciclista en montaña">
+                    </div>
+                    <div class="card-content">
+                        <h3>Post 1: Introducción al Ciclismo de Montaña</h3>
+                        <p>Aprende los conceptos básicos para comenzar en el mundo del MTB y disfrutar de la naturaleza sobre dos ruedas.</p>
+                        <a href="blog/posts/post1.html">Leer más</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bicicleta de carretera">
+                    </div>
+                    <div class="card-content">
+                        <h3>Post 2: Rutas Panorámicas para Ciclismo de Carretera</h3>
+                        <p>Descubre las rutas más espectaculares para disfrutar del ciclismo de carretera en diferentes regiones.</p>
+                        <a href="blog/posts/post2.html">Leer más</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mantenimiento de bicicleta">
+                    </div>
+                    <div class="card-content">
+                        <h3>Post 3: Mantenimiento Básico de tu Bicicleta</h3>
+                        <p>Guía completa para mantener tu bicicleta en perfecto estado y alargar su vida útil.</p>
+                        <a href="blog/posts/post3.html">Leer más</a>
+                    </div>
+                </article>
+            </div>
         </section>
         
-        <section class="podcast">
-            <h2>Últimos Episodios</h2>
-            <ul>
-                <li><a href="podcast/episodio1.mp3">Episodio 1: Introducción</a></li>
-                <li><a href="podcast/episodio2.mp3">Episodio 2: Tema Interesante</a></li>
-            </ul>
+        <section>
+            <h2 class="section-title">Últimos Episodios del Podcast</h2>
+            <div class="content-grid">
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Podcast sobre bicicletas">
+                    </div>
+                    <div class="card-content">
+                        <h3>Episodio 1: Historias de Ciclistas Urbanos</h3>
+                        <p>Escucha las experiencias de quienes usan la bicicleta como medio de transporte diario en la ciudad.</p>
+                        <a href="podcast/episodio1.mp3" class="btn-podcast"><i class="fas fa-play"></i> Escuchar ahora</a>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Viaje en bicicleta">
+                    </div>
+                    <div class="card-content">
+                        <h3>Episodio 2: Viajes en Bicicleta por el Mundo</h3>
+                        <p>Conoce las aventuras de ciclistas que han recorrido países enteros sobre sus bicicletas.</p>
+                        <a href="podcast/episodio2.mp3" class="btn-podcast"><i class="fas fa-play"></i> Escuchar ahora</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="contacto" class="contact-section">
+            <h2 class="section-title">Suscríbete a Nuestro Contenido</h2>
+            <div class="contact-content">
+                <p>Recibe los últimos artículos y episodios directamente en tu correo o cliente RSS favorito.</p>
+                <div class="contact-buttons">
+                    <a href="#" class="btn-email"><i class="fas fa-envelope"></i> Suscríbete por Email</a>
+                    <a href="feed/feeds.opml" class="btn-rss"><i class="fas fa-rss"></i> Suscríbete via RSS</a>
+                </div>
+            </div>
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2025 Mi Web RSS - <a href="feed/feeds.opml">Suscribete Aquí</a></p>
-        <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//alejandro98jk.github.io/web-rss/feed/rss.xml">
-            <img src="./images/valid-rss-rogers.png"alt="[Valid RSS]" title="Validate my RSS feed" />
-        </a>
+        <div class="container footer-content">
+            <p>&copy; 2025 Mundo Bicicleta - Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="rss-badge">
+                <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//alejandro98jk.github.io/web-rss/feed/rss.xml">
+                    <img src="./images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
