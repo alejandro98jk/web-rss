@@ -3,47 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Bicicletas</title>
+    <title>Blog de Bicicletas | Pasión por el Ciclismo</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Blog de Bicicletas</h1>
+        <div class="container">
+            <h1><i class="fas fa-bicycle"></i> Blog de Bicicletas</h1>
+            <p>Todo lo que necesitas saber sobre el mundo del ciclismo</p>
+        </div>
     </header>
+    
     <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="index.html">Blog</a>
-                <ul>
-                    <li><a href="posts/post1.html">Tipos de Bicicletas</a></li>
-                    <li><a href="posts/post2.html">Mantenimiento</a></li>
-                    <li><a href="posts/post3.html">Rutas Recomendadas</a></li>
-                </ul>
-            </li>
-            <li><a href="../podcast/index.html">Podcast</a></li>
-                </ul>
-            </li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="index.html" class="active"><i class="fas fa-book-open"></i> Blog</a>
+                    <ul>
+                        <li><a href="posts/post1.html"><i class="fas fa-biking"></i> Tipos de Bicicletas</a></li>
+                        <li><a href="posts/post2.html"><i class="fas fa-tools"></i> Mantenimiento</a></li>
+                        <li><a href="posts/post3.html"><i class="fas fa-route"></i> Rutas Recomendadas</a></li>
+                    </ul>
+                </li>
+                <li><a href="../podcast/index.html"><i class="fas fa-podcast"></i> Podcast</a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="blog-container">
-        <article class="blog-post">
-            <img src="../blog/images/Montaña.jpg" alt="Bicicleta de montaña">
-            <h2><a href="posts/post1.html">¿Cuál es la mejor para ti?</a></h2>
-            <p>Descubre los diferentes tipos de bicicletas y cuál es la mejor según tu estilo de vida y necesidades.</p>
-        </article>
-        <article class="blog-post">
-            <img src="../blog/images/herramienta.jpg" alt="Herramientas para mantenimiento">
-            <h2><a href="posts/post2.html">Mantenimiento Básico de tu Bicicleta</a></h2>
-            <p>Aprende cómo cuidar y hacer el mantenimiento adecuado a tu bicicleta para alargar su vida útil.</p>
-        </article>
-        <article class="blog-post">
-            <img src="../blog/images/ruta.jpg" alt="Ruta en bicicleta">
-            <h2><a href="posts/post3.html">Las Mejores Rutas para Ciclistas</a></h2>
-            <p>Explora las mejores rutas en bicicleta para disfrutar de paisajes increíbles y experiencias inolvidables.</p>
-        </article>
-    </section>
+    
+    <main class="container">
+        <section class="blog-container">
+            <article class="blog-post">
+                <img src="../blog/images/Montaña.jpg" alt="Bicicleta de montaña">
+                <div class="blog-post-content">
+                    <h2><a href="posts/post1.html">Tipos de Bicicletas: ¿Cuál es la mejor para ti?</a></h2>
+                    <p>Descubre los diferentes tipos de bicicletas y cuál se adapta mejor a tu estilo de vida y necesidades. Desde montaña hasta carretera, encuentra tu compañera ideal.</p>
+                    <a href="posts/post1.html" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-post">
+                <img src="../blog/images/herramienta.jpg" alt="Herramientas para mantenimiento">
+                <div class="blog-post-content">
+                    <h2><a href="posts/post2.html">Mantenimiento Básico de tu Bicicleta</a></h2>
+                    <p>Aprende cómo cuidar y hacer el mantenimiento adecuado a tu bicicleta para alargar su vida útil. Guía paso a paso para principiantes.</p>
+                    <a href="posts/post2.html" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-post">
+                <img src="../blog/images/ruta.jpg" alt="Ruta en bicicleta">
+                <div class="blog-post-content">
+                    <h2><a href="posts/post3.html">Las Mejores Rutas para Ciclistas</a></h2>
+                    <p>Explora las mejores rutas en bicicleta para disfrutar de paisajes increíbles y experiencias inolvidables. Recomendaciones para todos los niveles.</p>
+                    <a href="posts/post3.html" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </section>
+    </main>
+    
     <footer>
-        <p>&copy; 2024 Pasión por las Bicicletas | Blog para amantes del ciclismo</p>
+        <div class="container">
+            <p>&copy; 2024 Pasión por las Bicicletas | Blog para amantes del ciclismo</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

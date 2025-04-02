@@ -3,54 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podcast de Bicicletas</title>
+    <title>Podcast de Bicicletas | Pasión por el Ciclismo</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <h1>Podcast de Bicicletas</h1>
+        <div class="container">
+            <h1><i class="fas fa-podcast icon"></i> Podcast de Bicicletas</h1>
+            <p>Historias y consejos para amantes del ciclismo</p>
+        </div>
     </header>
+    
     <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../blog/index.html">Blog</a></li>
-            <li><a href="index.html">Podcast</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html"><i class="fas fa-home icon"></i> Inicio</a></li>
+                <li><a href="../blog/index.html"><i class="fas fa-book-open icon"></i> Blog</a></li>
+                <li><a href="index.html" class="active"><i class="fas fa-podcast icon"></i> Podcast</a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="podcast-container">
-        <article class="podcast-episode">
-            <img src="../images/Introducción al Mundo del Ciclismo.jpeg" alt="Episodio 1">
-            <h2>Episodio 1: Introducción al Mundo del Ciclismo</h2>
-            <audio controls>
-                <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" type="audio/mpeg">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
-            <p>Descubre cómo empezar en el mundo del ciclismo y los mejores consejos para principiantes.</p>
-        </article>
-        <article class="podcast-episode">
-            <img src="../images/Consejos para el Mantenimiento de tu Bicicleta.jpeg" alt="Episodio 2">
-            <h2>Episodio 2: Consejos para el Mantenimiento de tu Bicicleta</h2>
-            <audio controls>
-                <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" type="audio/mpeg">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
-            <p>Aprende a mantener tu bicicleta en perfectas condiciones con estos consejos útiles.</p>
-        </article>
-        <article class="podcast-episode">
-            <img src="../images/Las Mejores Rutas para Ciclistas.jpeg" alt="Episodio 3">
-            <h2>Episodio 3: Las Mejores Rutas para Ciclistas</h2>
-            <audio controls>
-                <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" type="audio/mpeg">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
-            <p>Explora las rutas más increíbles para ciclistas y disfruta de la aventura.</p>
-        </article>
-    </section>
+    
+    <main class="container">
+        <section class="podcast-container">
+            <article class="podcast-episode">
+                <img src="../images/Introducción al Mundo del Ciclismo.jpeg" alt="Episodio 1: Introducción al Mundo del Ciclismo">
+                <div class="episode-content">
+                    <h2>Episodio 1: Introducción al Mundo del Ciclismo</h2>
+                    <p>Descubre cómo empezar en el mundo del ciclismo y los mejores consejos para principiantes. Hablamos con expertos que comparten sus experiencias y recomendaciones.</p>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                    <div class="episode-meta">
+                        <span><i class="far fa-calendar-alt icon"></i> 15 Mayo 2024</span>
+                        <span><i class="far fa-clock icon"></i> 35 min</span>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="podcast-episode">
+                <img src="../images/Consejos para el Mantenimiento de tu Bicicleta.jpeg" alt="Episodio 2: Consejos para el Mantenimiento de tu Bicicleta">
+                <div class="episode-content">
+                    <h2>Episodio 2: Consejos para el Mantenimiento de tu Bicicleta</h2>
+                    <p>Aprende a mantener tu bicicleta en perfectas condiciones con estos consejos útiles. Nuestro mecánico experto te guía paso a paso en el cuidado esencial de tu bici.</p>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                    <div class="episode-meta">
+                        <span><i class="far fa-calendar-alt icon"></i> 22 Mayo 2024</span>
+                        <span><i class="far fa-clock icon"></i> 42 min</span>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="podcast-episode">
+                <img src="../images/Las Mejores Rutas para Ciclistas.jpeg" alt="Episodio 3: Las Mejores Rutas para Ciclistas">
+                <div class="episode-content">
+                    <h2>Episodio 3: Las Mejores Rutas para Ciclistas</h2>
+                    <p>Explora las rutas más increíbles para ciclistas y disfruta de la aventura. Desde paseos urbanos hasta desafíos de montaña, descubre los mejores recorridos.</p>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                    <div class="episode-meta">
+                        <span><i class="far fa-calendar-alt icon"></i> 29 Mayo 2024</span>
+                        <span><i class="far fa-clock icon"></i> 48 min</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    
     <footer>
-        <p>&copy; 2025 Pasión por las Bicicletas | Podcast para amantes del ciclismo</p>
-        <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//alejandro98jk.github.io/web-rss/feed/podcast.xml">
-            <img src="/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" />
-        </a>
+        <div class="container footer-content">
+            <p>&copy; 2025 Pasión por las Bicicletas | Podcast para amantes del ciclismo</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-spotify"></i></a>
+                <a href="#"><i class="fab fa-apple"></i></a>
+                <a href="#"><i class="fab fa-google-play"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="rss-badge">
+                <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//alejandro98jk.github.io/web-rss/feed/podcast.xml">
+                    <img src="../images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
