@@ -23,7 +23,7 @@
         </item>
         
         <item>
-            <title>Episodio 2: Tema Interesante</title>
+            <title>Episodio 2: Mundo Bicicleta</title>
             <link>https://alejandro98jk.github.io/podcast/episodio2.mp3</link>
             <description>Hoy exploramos...</description>
             <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" length="12345678" type="audio/mpeg"/>
@@ -31,11 +31,11 @@
         </item> 
     
        <item>
-            <title>Episodio 2: Tema Interesante</title>
-            <link>https://alejandro98jk.github.io/podcast/episodio2.mp3</link>
+            <title>Episodio 3: Tema Interesante</title>
+            <link>https://alejandro98jk.github.io/podcast/episodio3.mp3</link>
             <description>Hoy exploramos...</description>
             <pubDate>Thu, 27 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio3.mp3" length="12345678" type="audio/mpeg"/>
-            <guid>https://alejandro98jk.github.io/podcast/episodio2</guid>
+            <guid>https://alejandro98jk.github.io/podcast/episodio3</guid>
         </item>
 </rss>
