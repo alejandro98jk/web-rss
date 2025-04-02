@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Bicicleta - Blog y Podcast</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
 <body>
     <header>
         <div class="container header-content">
@@ -91,27 +93,40 @@
         </section>
         
         <section id="contacto" class="contact-section">
-            <h2 class="section-title">Suscríbete a Nuestro Contenido</h2>
+            <h2 class="section-title">Contacta con Nosotros</h2>
             <div class="contact-content">
-                <p>Recibe los últimos artículos y episodios directamente en tu correo o cliente RSS favorito.</p>
-                <div class="contact-buttons">
-                    <a href="feed/feeds.opml" class="btn-rss"><i class="fas fa-rss"></i> Suscríbete A opml</a>
-                    <a href="feed/podcast.xml" class="btn-rss"><i class="fas fa-rss"></i> Suscríbete A los Podcast</a>
-                    <a href="feed/rss.xml" class="btn-rss"><i class="fas fa-rss"></i> Suscríbete al RSS</a>
-                </div>
+                <p>¿Tienes preguntas o sugerencias? Escríbenos y te responderemos lo antes posible.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Tu email" required>
+                    <textarea placeholder="Tu mensaje" required></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
             </div>
         </section>
     </main>
     
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2025 Mundo Bicicleta - Todos los derechos reservados</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+            <div class="footer-subscription">
+                <h3>Suscríbete a nuestro contenido</h3>
+                <div class="subscription-buttons">
+                    <a href="feed/feeds.opml" class="btn-rss"><i class="fas fa-rss"></i> OPML</a>
+                    <a href="feed/podcast.xml" class="btn-rss"><i class="fas fa-rss"></i> Podcast</a>
+                    <a href="feed/rss.xml" class="btn-rss"><i class="fas fa-rss"></i> RSS</a>
+                </div>
             </div>
+            
+            <div class="footer-info">
+                <p>&copy; 2025 Mundo Bicicleta - Todos los derechos reservados</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
             <div class="rss-badge">
                 <a href="http://www.feedvalidator.org/check.cgi?url=https%3A//alejandro98jk.github.io/web-rss/feed/rss.xml">
                     <img src="./images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed">
